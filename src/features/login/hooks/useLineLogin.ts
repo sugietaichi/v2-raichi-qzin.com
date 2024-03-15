@@ -37,7 +37,7 @@ const useLineLogin = (): {
     setIsLoginLoading(true);
     try {
       const state = await fetchData();
-      alert(state);
+      // alert(state);
       console.log(state); // データが取得されているか確認
       if (!state) {
         console.error("stateが不正です");
