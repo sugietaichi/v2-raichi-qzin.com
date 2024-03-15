@@ -3,8 +3,8 @@ export const JobFAQ = ({ title }: { title: string }) => {
         <div className="border-pink-700 border-2 rounded shadow-xl m-2 mb-5 p-2 pt-5 mt-10 relative">
             {title && <div className="absolute top-[-1rem] left-2 px-2 bg-pink-100 border-2 border-pink-600 text-xl text-gray-600 rounded-lg font-bold"><p className="stroke-white">{title}</p></div>}
             <section className="bg-white ">
-                <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-                    <div className="grid text-left border-gray-200 md:gap-16  md:grid-cols-2">
+                <div className="py-8 px-4 mx-auto max-w-screen-xl">
+                    <div className="border-gray-200">
                         <div>
                             <div className="mb-10">
                                 <h3 className="flex items-center mb-4 text-lg font-medium  ">
